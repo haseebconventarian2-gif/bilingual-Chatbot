@@ -15,6 +15,14 @@ Bilingual banking chatbot powered by GPT-4o, Azure AI Search, speech services, W
 
 Bilingual banking chatbot powered by GPT-4o, Azure AI Search, speech services, WhatsApp, and ACS.
 
+## 📖 The Story
+
+Language can become a barrier in digital banking, especially when the customer is more comfortable speaking than typing. This project tells the story of expanding a conventional assistant into one that can serve both English and Urdu conversations across text and voice.
+
+The request enters through FastAPI, audio is transcribed, relevant banking information is retrieved through Azure AI Search, and GPT-4o prepares a grounded response. The answer can then return as text or synthesized speech and can be connected to WhatsApp or Azure Communication Services.
+
+The repository demonstrates the architecture needed for inclusive conversational banking. Its next phase would add language-specific evaluation sets, human handoff, accessibility testing, and stricter controls around regulated financial content.
+
 ## Highlights
 
 - Text conversation endpoint
@@ -90,4 +98,5 @@ This is a learning and reference implementation. Review security, validation, mo
 - Define retention and privacy controls for audio and customer data.
 
 > This README reflects the current codebase. External AI, telephony, and messaging features require their respective accounts, assets, and approvals.
+
 
